@@ -19,6 +19,7 @@ routes.use(authMiddleware);
 
 //################## AUTH PROOF #####################
 //Dashboard
+routes.get('/proof/dashboard', DashboardsController.get);
 
 //################## AUTH PROOF #####################
 
